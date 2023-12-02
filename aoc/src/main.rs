@@ -4,6 +4,7 @@ const PUZZLES: &[&dyn aoc_common::Puzzle] = &[
     &day1_1::PUZZLE as &dyn aoc_common::Puzzle,
     &day1_2::PUZZLE as &dyn aoc_common::Puzzle,
     &day2_1::PUZZLE as &dyn aoc_common::Puzzle,
+    &day2_2::PUZZLE as &dyn aoc_common::Puzzle,
 ];
 
 fn get_puzzle_path(puzzle: &dyn aoc_common::Puzzle, test: bool) -> String {
@@ -43,7 +44,8 @@ mod tests {
     #[parameterized(
         day1_1 = { PUZZLES[0] },
         day1_2 = { PUZZLES[1] },
-        day2_1 = { PUZZLES[2] }
+        day2_1 = { PUZZLES[2] },
+        day2_2 = { PUZZLES[3] }
     )]
     fn test_puzzle(puzzle: &dyn aoc_common::Puzzle) {
         let expected = puzzle.get_expected_test_result();
