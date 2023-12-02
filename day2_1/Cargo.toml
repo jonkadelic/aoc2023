@@ -1,5 +1,5 @@
 [package]
-name = "aoc"
+name = "day2_1"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,7 +7,5 @@ edition = "2021"
 
 [dependencies]
 aoc_common = { path = "../aoc_common" }
-day1_1 = { path = "../day1_1" }
-day1_2 = { path = "../day1_2" }
-day2_1 = { path = "../day2_1" }
-yare = "2.0.0"
+lazy_static = "1.4.0"
+regex = "1.10.2"
