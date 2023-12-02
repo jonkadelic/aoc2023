@@ -1,1 +1,0 @@
-/home/jo/projects/aoc2023/aoc/target/debug/aoc: /home/jo/projects/aoc2023/aoc/src/main.rs /home/jo/projects/aoc2023/aoc_common/src/lib.rs /home/jo/projects/aoc2023/day1_1/src/lib.rs /home/jo/projects/aoc2023/day1_2/src/lib.rs
